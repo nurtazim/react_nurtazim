@@ -1,5 +1,5 @@
 import React from "react";
-import Todo_ListItem from "./TodoListItem";
+import Todo_ListItem from "../todo_list_item/TodoListItem";
 
 const TodoList = ({todos}) => {
     const elements = todos.map((item) => {

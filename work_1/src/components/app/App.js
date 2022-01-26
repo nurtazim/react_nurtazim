@@ -1,6 +1,6 @@
 import React from "react";
-import Todo_header from "./TodoHeader";
-import TodoList from "./TodoList";
+import Todo_header from "../todo_header/TodoHeader";
+import TodoList from "../todo_list/TodoList";
 const App = () => {
     const todos = [
         {id: 1, label: "Drink tea", done: false, import: false},
